@@ -1,15 +1,15 @@
-# Project Proposal
+## Project Proposal
 
-## The Big Idea: 
+### The Big Idea: 
 
-## Learning Objectives: 
+### Learning Objectives: 
 
-## Implementation Plan: 
+### Implementation Plan: 
 
-## Project Schedule: 
+### Project Schedule: 
 
-## Collaboration Plan: 
+### Collaboration Plan: 
 
-## Risks and Limitations:
+### Risks and Limitations:
 
-## Additional Course Content: 
+### Additional Course Content: 
