@@ -1,3 +1,15 @@
-# Team-Project
+# Project Proposal
 
-This is a team project repository for Max (Jinhao) You and Kevin (Pengru) Lin
+## The Big Idea: 
+
+## Learning Objectives: 
+
+## Implementation Plan: 
+
+## Project Schedule: 
+
+## Collaboration Plan: 
+
+## Risks and Limitations:
+
+## Additional Course Content: 
