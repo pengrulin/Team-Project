@@ -2,19 +2,28 @@
 
 import requests
 
-url = "https://priceline-com.p.rapidapi.com/hotel/8794805"
+url = "https://mashvisor-api.p.rapidapi.com/rental-rates"
 
-querystring = {"checkin_date":"2021-01-22","checkout_date":"2021-01-23","rooms":"1","currency":"USD"}
+querystring = {"state":"CA","source":"airbnb","city":"Los Angeles","zip_code":"90291"}
 
 headers = {
 	"content-type": "application/octet-stream",
-	"X-RapidAPI-Key": "6428de790bmshb5b25c00e79e813p1b11f2jsnb396e92a618e",
-	"X-RapidAPI-Host": "priceline-com.p.rapidapi.com"
+	"X-RapidAPI-Key": "0a2679a9c0mshe4760d5ee1ce0dcp15c64ejsn38f0ead0c686",
+	"X-RapidAPI-Host": "mashvisor-api.p.rapidapi.com"
 }
 
-response = requests.get(url, headers=headers, params=querystring)
+response = requests.get(url, headers=headers, params=querystring).json()
 
-print(response.json())
+print(response["content"]["retnal_rates"]["studio_value"])
+
+studio_value = response["content"]["retnal_rates"]["studio_value"]
+one_room_value = ["content"]["retnal_rates"]["one_room_value"]
+two_room_value = ["content"]["retnal_rates"]["two_room_value"]
+three_room_value = ["content"]["retnal_rates"]["three_room_value"]
+four_room_value = ["content"]["retnal_rates"]["four_room_value"]
+
+
+
 
 # def get_json(url: str) -> dict:
 #     """
