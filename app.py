@@ -14,7 +14,7 @@ def nearestStation():
         numRoom = request.form['numroom']
         averageRate = average_rate(staeName,cityName,zipCode,numRoom)
         
-        return render_template("result1.html", cityName = cityName, averageRate= averageRate)
+        return render_template("result1.html", cityName = cityName, averageRate= averageRate, numroom = numRoom)
     else:
         return render_template("index.html")
 
