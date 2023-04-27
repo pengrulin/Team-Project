@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
-from mbta_helper import find_stop_near
-
+from AppCode import average_rate
 app = Flask(__name__)
 
 
@@ -9,10 +8,13 @@ app = Flask(__name__)
 @app.route('/', methods=["GET", "POST"])
 def nearestStation():
     if request.method == "POST":
-        placeName= request.form['placeName']
-        nearestStation, isAccessible = find_stop_near(placeName)
-        isAccessible = " " if isAccessible==1 else "not"
-        return render_template("result.html", placeName = placeName, nearestStation = nearestStation, isAccessible = isAccessible)
+        staeName= request.form['state']
+        cityName = request.form['city']
+        zipCode = request.form['zipcode']
+        numRoom = request.form['numroom']
+        averageRate = average_rate(staeName,cityName,zipCode,numRoom)
+        
+        return render_template("result1.html", cityName = cityName, averageRate= averageRate)
     else:
         return render_template("index.html")
 
