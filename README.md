@@ -1,10 +1,10 @@
 ## Project Proposal
  
 ### The Big Idea: 
-For our project, we envision to build a platform that allow users to be able to check and compare hotel rating and prices of hotels in the United States. We would like to create website using free hotel information APIs. We expect the final product to ease the users' pain of finding hotel by allowing them to enter and select location in the States to come out with hotels nearby and their ratings accordingly.
+For our project, we envision to build a platform that allow users to be able to check and compare prices and room types of airbnb around regions in the United States. We would like to create website using US airbnb information APIs. We expect the final product to ease the users' pain of finding airbnb prices and room types by allowing them to enter and select location in the States to come out with airbnb prices and room types nearby accordingly.
 
 ### Implementation Plan: 
-We will search for a useable yet free API as out data source and we will come up with the specific plan for implementation later
+We will search for a useable API as our data source and we will come up with the specific plan for implementation later
 
 ### Project Schedule: 
 Project is due on April 29th, which gives us roughly three weeks to complete the project. Here are the initial deadlines we set for the project: 
