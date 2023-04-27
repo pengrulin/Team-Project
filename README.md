@@ -21,6 +21,10 @@ Since both team members live off-campus and in Newton area, we will meet up week
 ### Risks and Limitations:
 Concerning the completion of the project, the most significant threat is to complete and work on the project according to the deadline setup rather than procrastinating to the last minute. To mitigate the risk, we will set these projected schedules as hard deadline in order to move along. 
 
+For the API itself, there might be some data missing for some regions. Some of the test regions that we were able to obtain results are: 
+NY, New York, 10012;
+MA, Boston University, 02215;
+
 ### Additional Course Content: 
 Some course contents that might be important to the completion of our project are: 
 Lists, Dictionaries, Tuples, API, Text analysis. 
